@@ -1,0 +1,104 @@
+/*le tête de page*/
+	header{
+		background-color: #610C0F;
+		background-size: 100px: 
+	}
+	body header p{
+	    font-size: 50px;
+	    padding-left: 100px;
+	    text-align: center;
+	}
+
+	ul li.bern{
+		display: inline-block;
+		list-style-type: none;
+		padding-left: 180px;
+	}
+	ul li.bern:hover a{
+		color: black;
+		font-size: 25px;
+		text-decoration: none;
+		background-color: none;
+		padding: 10px;
+	}
+	ul li.bern a{
+		color: black;
+		background-color: white;
+		transition: 0.3s;
+	}
+	p.welcome{
+		color: black;
+		background-color: #ffffff;
+		text-align: center;
+		font-size: 20px
+	}
+
+	body h1.headline{
+		font-size: 110px;
+		color: #05F4CC;
+		text-align: center;
+		font-weight: bold;
+		padding-left:150px;
+		padding-left: 27px
+
+	}
+
+	body{
+		background-color: #084EF3;
+		color: white;
+	}
+
+	/*le balise div*/
+	div.leftbox h2{
+		text-align: center;
+	}
+	div.leftbox p{
+		color: #ffffff;
+		background-color: #610C0F;
+		font-size: 14px;
+		padding: 25px;
+		width: 200px;
+		text-align: center;
+	}
+	div.leftbox img{
+		border-radius: 50%;
+		padding-left: 70px;
+	}
+	div.leftbox:hover p{
+		color: #05F6F6;
+		background-color: #fa0738;
+		transition: 0.3s;
+	}
+	div#content{
+		background-color: #ffffff;
+		padding: 10px;
+	}
+	div#content div{
+		display: inline-block;
+		width: 48%;
+	}
+	div#content div.leftbox{
+		background-color: #222282;
+		vertical-align: top;
+		padding: 20px;
+	}
+	div#content div h1, p, iframe{
+		margin: 35px;
+		letter-spacing: 1.5px;
+	}
+	div#content div.rightbox{
+		background-color: #07819A;
+		padding-bottom: 300px;
+	} 
+	div.rightbox h1{
+		font-size: 30px;
+		color: white;
+		text-align: center;
+	}
+
+	/*le pied de page*/
+	footer{
+		background-color: #084EF3;
+		padding-left: 275px;
+	}
+
