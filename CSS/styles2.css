@@ -9,30 +9,6 @@
 	    text-align: center;
 	}
 
-	ul li.bern{
-		display: inline-block;
-		list-style-type: none;
-		padding-left: 180px;
-	}
-	ul li.bern:hover a{
-		color: black;
-		font-size: 25px;
-		text-decoration: none;
-		background-color: none;
-		padding: 10px;
-	}
-	ul li.bern a{
-		color: black;
-		background-color: white;
-		transition: 0.3s;
-	}
-	p.welcome{
-		color: black;
-		background-color: #ffffff;
-		text-align: center;
-		font-size: 20px
-	}
-
 	body h1.headline{
 		font-size: 110px;
 		color: #05F4CC;
@@ -60,10 +36,7 @@
 		width: 200px;
 		text-align: center;
 	}
-	div.leftbox img{
-		border-radius: 50%;
-		padding-left: 70px;
-	}
+	
 	div.leftbox:hover p{
 		color: #05F6F6;
 		background-color: #fa0738;
@@ -95,9 +68,8 @@
 		color: white;
 		text-align: center;
 	}
-
 	/*le pied de page*/
 	footer{
-		background-color: #084EF3;
+		background-color: #50021C;
 		padding-left: 275px;
 	}
