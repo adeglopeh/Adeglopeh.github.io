@@ -2,6 +2,9 @@
 	header{
 		background-color: #610C0F;
 	}
+	body header img{
+		padding-left: 35px; 
+	}
 	body header p{
 	    font-size: 50px;
 	    padding-left: 100px;
