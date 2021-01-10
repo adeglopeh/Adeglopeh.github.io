@@ -33,7 +33,6 @@
 	}
 
 	body h1.headline{
-		background: url();
 		font-size: 110px;
 		color: #05F4CC;
 		text-align: center;
@@ -55,9 +54,10 @@
 	div.leftbox p{
 		color: #ffffff;
 		background-color: #610C0F;
-		font-size: 15px;
+		font-size: 14px;
 		padding: 25px;
 		width: 200px;
+		text-align: center;
 	}
 	div.leftbox img{
 		border-radius: 50%;
@@ -87,13 +87,12 @@
 	}
 	div#content div.rightbox{
 		background-color: #07819A;
-		padding-bottom: 360px;
+		padding-bottom: 350px;
 	} 
 	div.rightbox h1{
 		font-size: 40px;
 		color: white;
-		padding: 100px;
-		padding-left: 200px;
+		text-align: center;
 	}
 
 	/*le pied de page*/
