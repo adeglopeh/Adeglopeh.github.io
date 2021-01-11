@@ -142,6 +142,6 @@
 	/*le pied de page*/
 	footer{
 		background-color: #084EF3;
-		padding-left: 275px;
 		font-family: times new roman;
+		text-align: center;
 	}
