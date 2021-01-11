@@ -21,23 +21,18 @@
 		list-style-type: none;
 		padding-left: 180px;
 	}
-
-	ul li.bern:hover a{
-		color: black;
-		font-size: 20px;
-		font-family: times new roman;
-		text-decoration: none;
-		background-color: none;
-		padding: 10px;
-	}
 	ul li.bern a{
 		color: black;
 		font-size: 30px;
 		font-family: times new roman;
 		text-decoration: none;
 		background-color: #01DFF7;
+	}
+	ul li.bern:hover a{
+		text-decoration: none;
+		background-color: #FA009E;
 		transition: 0.3s;
-		animation: ease-in-out;
+		padding: 8px;
 	}
 
 	p.welcome{
@@ -89,8 +84,7 @@
 		padding-top: 20px;
 	}
 	div.leftbox:hover p{
-		color: #05F6F6;
-		background-color: #fa0738;
+		background-color: #FA009E;
 		transition: 0.3s;
 	}
 	div#content{
