@@ -25,7 +25,9 @@
 	}
 	ul li.bern a{
 		color: black;
-		background-color: white;
+		font-size: 30px;
+		text-decoration: none;
+		background-color: #ff0033;
 		transition: 0.3s;
 	}
 	p.welcome{
