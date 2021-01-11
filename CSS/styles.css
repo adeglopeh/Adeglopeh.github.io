@@ -15,6 +15,9 @@
 	    padding-left: 100px;
 	    text-align: center;
 	}
+	div.ads {
+		text-align: right;
+	}
 
 	ul li.bern{
 		display: inline-block;
@@ -43,7 +46,7 @@
 	}
 	p.welcome:hover{
 		color: #ffffff;
-		background-color: #610C0F;
+		background-color: #FA009E;
 		transition: 0.3s;
 	}
 
