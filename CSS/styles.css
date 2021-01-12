@@ -40,15 +40,15 @@ header div.fullscreen-bg video{
 	ul li.bern a{
 		color: black;
 		font-size: 30px;
-		font-family: times new roman;
+		font-family: Times New Roman;
 		text-decoration: none;
-		background-color: #01DFF7;
+		background-color: #F9057F;
 	}
 	ul li.bern:hover a{
 		text-decoration: none;
-		background-color: #FA009E;
+		background-color: #ffffff;
 		transition: 0.3s;
-		padding: 8px;
+		padding: 6px;
 	}
 
 	p.welcome{
@@ -57,7 +57,7 @@ header div.fullscreen-bg video{
 		font-size: 20px;
 	}
 	p.welcome:hover{
-		color: #FA009E;
+		color: #05F4CC;
 		transition: 0.3s;
 	}
 
@@ -98,7 +98,7 @@ header div.fullscreen-bg video{
 		padding-top: 20px;
 	}
 	div.leftbox:hover p{
-		background-color: #FA009E;
+		background-color: #49061C;
 		transition: 0.3s;
 	}
 	div#content{
@@ -153,3 +153,4 @@ header div.fullscreen-bg video{
 		font-family: times new roman;
 		text-align: center;
 	}
+
