@@ -1,22 +1,22 @@
 	/*le tête de page*/
-header div.fullscreen-bg video{
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -1;
-    margin: 0px;
-}
+	header div.fullscreen-bg video{
+	    position: fixed;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    overflow: hidden;
+	    z-index: -1;
+	    margin: 0px;
+	}
 
-.fullscreen-bg__video{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-}
+	.fullscreen-bg__video{
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: auto;
+	}
 
 	body header img{
 		padding-left: 35px; 
