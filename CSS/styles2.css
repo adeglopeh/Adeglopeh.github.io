@@ -1,16 +1,77 @@
 /*le tête de page*/
-	header{
-		background-color: #610C0F;
-		background-size: 100px: 
+	header div.media{
+		padding: 20px 20px;
+		display: inline-block;	
+		transition: 0.3s
+		width: 50px;
+		height: 50px;
 	}
+	header div.media{
+		padding-left: 600px;
+	}
+
+	header div.fullscreen-bg video{
+	    position: fixed;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    overflow: hidden;
+	    z-index: -1;
+	    margin: 0px;
+	}
+
+	.fullscreen-bg__video{
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: auto;
+	}
+
+	body header img{
+		padding-left: 35px; 
+	}
+
 	body header p{
 	    font-size: 50px;
+	    font-family: times new roman; 
 	    padding-left: 100px;
 	    text-align: center;
 	}
 
+	ul li.bern{
+		display: inline-block;
+		list-style-type: none;
+		padding-left: 180px;
+	}
+	ul li.bern a{
+		color: black;
+		font-size: 30px;
+		font-family: Times New Roman;
+		text-decoration: none;
+		background-color: #F9057F;
+	}
+	ul li.bern:hover a{
+		text-decoration: none;
+		background-color: #ffffff;
+		transition: 0.3s;
+		padding: 6px;
+	}
+
+	p.welcome{
+		color: #ffffff;
+		text-align: center;
+		font-size: 20px;
+	}
+	p.welcome:hover{
+		color: #05F4CC;
+		transition: 0.3s;
+	}
+
 	body h1.headline{
 		font-size: 110px;
+		font-family: times new roman;
 		color: #05F4CC;
 		text-align: center;
 		font-weight: bold;
@@ -24,7 +85,11 @@
 	}
 
 	/*le balise div*/
+	div.leftbox h2{
+		text-align: center;
+		font-family: times new roman;
 	}
+
 	div.leftbox p{
 		color: #ffffff;
 		background-color: #610C0F;
@@ -32,41 +97,82 @@
 		padding: 25px;
 		width: 200px;
 		text-align: center;
+		font-family: times new roman;
+	}
+	div.leftbox img{
+		border-radius: 50%;
+		padding-left: 70px;
+	}
+	div.leftbox h3{
+		padding-left: 150px;
+	}
+	div.leftbox h1{
+		text-align: center;
+		color: #ffffff;
+		font-family: times new roman;
+		padding-top: 0px;
+		padding-bottom: 0px;
 	}
 	div.leftbox:hover p{
-		color: #05F6F6;
-		background-color: #fa0738;
+		background-color: #2E0312;
 		transition: 0.3s;
 	}
 	div#content{
 		background-color: #ffffff;
-		padding: 10px;
+		padding: 5px;
 	}
 	div#content div{
 		display: inline-block;
-		width: 48%;
+		width: 49.5%;
 	}
 	div#content div.leftbox{
-		background-color: #222282;
+		background-color: #084EF3;
 		vertical-align: top;
-		padding: 20px;
+		padding-bottom: 100px;
 	}
 	div#content div h1, p, iframe{
 		margin: 35px;
 		letter-spacing: 1.5px;
 	}
 	div#content div.rightbox{
-		background-color: #07819A;
-		padding-bottom: 100px;
+		background-color: #017CF7;
+		padding-bottom: 60px;
 	} 
 	div.rightbox h1{
-		font-size: 30px;
-		color: white;
+		font-size: 26px;
+		color: #610C0F;
 		text-align: center;
+		font-family: times new roman;
+	}
+	div.rightbox h2{
+		font-size: 15px;
+		color: #000000;
+		text-align: justify;
+		font-family: times new roman;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 0px;
+	}
+	div.rightbox h3{
+		font-size: 18px;
+		color: #610C0F;
+		text-align: justify;
+		font-family: times new roman;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 0px;
+	}
+	div.rightbox h4{
+		font-size: 19px;
+		color: #000000;
+		text-align: center;
+		font-family: times new roman;
+		padding-top: 0px;
 	}
 
 	/*le pied de page*/
 	footer{
 		background-color: #50021C;
+		font-family: times new roman;
 		text-align: center;
 	}
