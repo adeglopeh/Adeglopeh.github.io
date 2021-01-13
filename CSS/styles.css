@@ -28,9 +28,6 @@ header div.fullscreen-bg video{
 	    padding-left: 100px;
 	    text-align: center;
 	}
-	div.ads{
-		text-align: right;
-	}
 
 	ul li.bern{
 		display: inline-block;
@@ -81,6 +78,7 @@ header div.fullscreen-bg video{
 		text-align: center;
 		font-family: times new roman;
 	}
+
 	div.leftbox p{
 		color: #ffffff;
 		background-color: #610C0F;
@@ -95,7 +93,7 @@ header div.fullscreen-bg video{
 		padding-left: 70px;
 	}
 	div.leftbox h3{
-		padding-top: 20px;
+		padding-left: 150px;
 	}
 	div.leftbox:hover p{
 		background-color: #2E0312;
@@ -112,7 +110,7 @@ header div.fullscreen-bg video{
 	div#content div.leftbox{
 		background-color: #084EF3;
 		vertical-align: top;
-		padding: 20px;
+		padding-bottom: 150px;
 	}
 	div#content div h1, p, iframe{
 		margin: 35px;
@@ -120,7 +118,7 @@ header div.fullscreen-bg video{
 	}
 	div#content div.rightbox{
 		background-color: #017CF7;
-		padding-bottom: 90px;
+		padding: 0px 0px 0px 0px;
 	} 
 	div.rightbox h1{
 		font-size: 26px;
@@ -138,12 +136,19 @@ header div.fullscreen-bg video{
 		padding-top: 0px;
 	}
 	div.rightbox h3{
-		font-size: 19px;
+		font-size: 18px;
 		color: #610C0F;
 		text-align: justify;
 		font-family: times new roman;
 		padding-left: 15px;
 		padding-right: 15px;
+		padding-top: 0px;
+	}
+	div.rightbox h4{
+		font-size: 19px;
+		color: #000000;
+		text-align: center;
+		font-family: times new roman;
 		padding-top: 0px;
 	}
 
@@ -153,4 +158,3 @@ header div.fullscreen-bg video{
 		font-family: times new roman;
 		text-align: center;
 	}
-
