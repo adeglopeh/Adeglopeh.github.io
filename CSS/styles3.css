@@ -1,4 +1,17 @@
 /*le tête de page*/
+	body div.social{
+		padding: 20px 20px;
+		display: inline-block;	
+		transition: 0.3s
+		width: 50px;
+		height: 50px;
+		top: 0;
+	}
+
+	body div.social{
+		padding-left: 1000px;
+	}
+
 	header{
 		background-color: #610C0F;
 		background-size: 100px: 
@@ -44,12 +57,12 @@
 	}
 	div#content div{
 		display: inline-block;
-		width: 48%;
+		width: 49.5%;
 	}
 	div#content div.leftbox{
 		background-color: #222282;
 		vertical-align: top;
-		padding: 20px;
+		padding: 10px;
 	}
 	div#content div h1, p, iframe{
 		margin: 35px;
@@ -57,7 +70,7 @@
 	}
 	div#content div.rightbox{
 		background-color: #07819A;
-		padding-bottom: 100px;
+		padding-bottom: 80px;
 	} 
 	div.rightbox h1{
 		font-size: 30px;
@@ -68,5 +81,6 @@
 	/*le pied de page*/
 	footer{
 		background-color: #50021C;
+		font-family: times new roman;
 		text-align: center;
 	}
