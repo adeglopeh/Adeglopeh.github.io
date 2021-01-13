@@ -105,7 +105,7 @@
 	}
 	div#content div{
 		display: inline-block;
-		width: 48%;
+		width: 49.5%;
 	}
 	div#content div.leftbox{
 		background-color: #084EF3;
@@ -118,7 +118,7 @@
 	}
 	div#content div.rightbox{
 		background-color: #017CF7;
-		padding: 0px 0px 0px 0px;
+		padding: 0px;
 	} 
 	div.rightbox h1{
 		font-size: 26px;
