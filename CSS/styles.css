@@ -95,6 +95,13 @@
 	div.leftbox h3{
 		padding-left: 150px;
 	}
+	div.leftbox h1{
+		text-align: center;
+		color: #ffffff;
+		font-family: times new roman;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
 	div.leftbox:hover p{
 		background-color: #2E0312;
 		transition: 0.3s;
@@ -118,7 +125,7 @@
 	}
 	div#content div.rightbox{
 		background-color: #017CF7;
-		padding: 0px;
+		padding-bottom: 40px;
 	} 
 	div.rightbox h1{
 		font-size: 26px;
